@@ -6,14 +6,14 @@ int main (void) {
     int width;
     int volume;
 
-    printf("Enter height of box (in): ");
+    printf("\aEnter height of box (in): ");
     scanf("%d", &height);
     printf("Enter length of box (in): ");
     scanf("%d", &length);
     printf("Enter width of box (in): ");
     scanf("%d", &width);
 
-    printf("Volume: %d cubic inches\n", height * length * width);
+    printf("\aVolume: %d cubic inches\n", height * length * width);
 
     return 0;
 }
